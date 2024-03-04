@@ -1,9 +1,9 @@
 class Neo4jMigrations < Formula
   desc "Simple, Flyway DB inspired migrations for Neo4j."
   homepage "https://github.com/michael-simons/neo4j-migrations"
-  url "https://github.com/michael-simons/neo4j-migrations/releases/download/2.9.1/neo4j-migrations-2.9.1-osx-x86_64.zip"
-  version "2.9.1"
-  sha256 "08d3c4cdbb774ab1a89345a74f471e42c17519d93fadaf864b07b2b0234f3b12"
+  url "https://github.com/michael-simons/neo4j-migrations/releases/download/2.9.2/neo4j-migrations-2.9.2-osx-x86_64.zip"
+  version "2.9.2"
+  sha256 "ee7fc595b98b1dafc56b044cbd062f1cdcceff860a2814792ed5de549adbd55b"
   license "The Apache Software License, Version 2.0"
 
 
@@ -17,6 +17,6 @@ class Neo4jMigrations < Formula
 
   test do
     output = shell_output("#{bin}/neo4j-migrations --version")
-    assert_match "neo4j-migrations/2.9.1", output
+    assert_match "neo4j-migrations/2.9.2", output
   end
 end
