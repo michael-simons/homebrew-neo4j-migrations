@@ -3,7 +3,7 @@ class Neo4jMigrations < Formula
   homepage "https://github.com/michael-simons/neo4j-migrations"
   url "https://github.com/michael-simons/neo4j-migrations/releases/download/1.16.4/neo4j-migrations-1.16.4-osx-aarch_64.zip"
   version "1.16.4"
-  sha256 "fc1cc4c6296d93a9bf6252ca0b5b7a1c6239c80c7272008cf2ee65a4cf6960d6"
+  sha256 "0b1cb131cf2cc44fefe79bdd9ba2250cbd32a40f276fb770d1387c95c0f2ebb6"
   license "The Apache Software License, Version 2.0"
 
 
